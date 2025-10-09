@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.screen {
+  padding-top: 10%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-booking {
+  padding: 5% 5%;
+  /* border: 1px solid black; */
+  /* border-radius: 25px; */
+  margin: 5% 5% 20% 5%;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.52);
+  border-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.8px);
+  -webkit-backdrop-filter: blur(9.8px);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+.ticket-container {
+  position: absolute;
+  bottom: 10px;
+  width: 80%;
+}
+
+.section-container {
+  margin-bottom: 24px;
+}
+
+.center-content {
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  color: var(--grey);
+  font-weight: 700;
+}
+
+.selected-container {
+  margin-bottom: 24px;
+}
+
+.selected-date {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.duration-container {
+  margin: 6px 0;
+}
+
+.p-5 {
+  padding: 5%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.mt-24 {
+  margin-top: 24px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  margin-bottom: 6px;
+}
+
+.submit-button {
+  margin: 24px 0;
+}
+
+.option-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+.option-container:hover {
+  background-color: #1976d22c;
+  padding: 25px;
+  border-radius: 20px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* animation css */
+.slide-in {
+  transform: translateX(-100%);
+  transition:
+    transform 1000ms ease-in-out,
+    opacity 1000ms ease-in-out;
+  opacity: 0;
+}
+
+.slide-in.active {
+  transform: translateX(0);
+  transition:
+    transform 1000ms ease-in-out,
+    opacity 1000ms ease-in-out;
+  opacity: 1;
+}

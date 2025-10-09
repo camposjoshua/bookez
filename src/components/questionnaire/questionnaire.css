@@ -1,0 +1,14 @@
+.session-message {
+  color: grey;
+  text-align: left;
+  margin-bottom: 10px;
+  width: 90%;
+  text-align: center;
+}
+
+.assessment-section {
+  width: 100%;
+  box-shadow:
+    0 0 0 0 #fff inset,
+    #00b5eb 0 0 0 2px;
+}
