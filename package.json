@@ -5,7 +5,11 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.4",
     "@mui/material": "^7.3.4",
+    "@mui/x-date-pickers": "^8.14.0",
+    "@mui/x-date-pickers-pro": "^8.14.0",
+    "@react-pdf/renderer": "^4.3.1",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
@@ -14,11 +18,21 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.1",
+    "axios": "^1.12.2",
+    "csv-parse": "^6.1.0",
+    "d3-dsv": "^3.0.1",
+    "dayjs": "^1.11.18",
+    "firebase": "^12.4.0",
+    "jwt-decode": "^4.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-pdf": "^10.2.0",
+    "react-router-dom": "^7.9.4",
     "react-scripts": "5.0.1",
+    "sweetalert2": "^11.25.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5",
     "zustand": "^5.0.8"
   },
   "scripts": {
@@ -44,5 +58,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/csv-parse": "^1.1.12",
+    "@types/d3-dsv": "^3.0.7"
   }
 }

@@ -1,0 +1,102 @@
+.login-logo {
+  max-width: 100%;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
+  transition:
+    width 2s,
+    height 2s,
+    transform 2s;
+}
+
+.login-component {
+  padding: 25px 20px 50px 20px;
+  background: rgba(255, 255, 255, 0.52);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-backdrop-filter: blur(9.8px);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  width: 250px;
+  transition: transform 2s;
+}
+
+.login-subtitle-text {
+  font-size: 15px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
+.verify-btn-container {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.verify-btn {
+  padding: 10px 20px;
+  background-color: #1899d6;
+  border-color: white;
+  border: solid transparent;
+  color: white;
+  border-radius: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.status-indicator {
+  margin-bottom: 4px;
+}
+
+.status-indicator p {
+  color: red;
+}
+
+.verify-btn:hover {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #1899d6;
+  border-color: white;
+  border: solid transparent;
+  color: white;
+  border-radius: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.input-container {
+  height: 30px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.small-text {
+  color: grey;
+  font-size: 11px;
+}
+
+.link {
+  margin-top: px;
+  color: rgb(66, 66, 255);
+  text-decoration: underline;
+  font-size: 11px;
+  cursor: pointer;
+}

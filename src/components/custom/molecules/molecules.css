@@ -1,0 +1,13 @@
+.table-cell,
+.cell-value {
+  flex: 1;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.cell-value {
+  padding: 5px;
+  justify-content: flex-start;
+}

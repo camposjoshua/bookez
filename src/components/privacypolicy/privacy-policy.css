@@ -1,0 +1,19 @@
+li.privacy-header {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.numbering {
+  padding: 24px 5%;
+  list-style-type: none;
+}
+
+.big-letter {
+  padding: 24px 10%;
+  list-style-type: none;
+}
+
+.small-letter {
+  padding: 6px 15%;
+  list-style-type: none;
+}

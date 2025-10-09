@@ -1,0 +1,28 @@
+.text-copy-btn,
+.text-copy-btn-sltd,
+.text-copy-icon {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-color: grey;
+  border-width: 1.5px;
+  background-color: white;
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  white-space: nowrap; /* Prevents text from wrapping to a new line */
+  overflow: hidden; /* Hides any text that overflows the div */
+  text-overflow: ellipsis;
+  font-size: 13px;
+  color: grey;
+  font-weight: bold;
+}
+
+.text-copy-btn-sltd {
+  border-color: #008000;
+}
+
+.border-round {
+  border-radius: 5px;
+}
