@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "silverlining-ec543",
+    "prod": "silburo-prd"
+  },
+  "targets": {},
+  "etags": {}
+}

@@ -1,22 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./assets/404.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        <p style={{ fontSize: 36 }}>
+          We’re doing a bit of maintenance right now.
+          <br />
+          Thanks for your patience!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOWXnJOxnUO4SA_4AFdXBB0sXmm1EWle8j_kQmBn3Vz901Nw/viewform">
+          <span className="button_top"> Contact us</span>
         </a>
       </header>
     </div>
