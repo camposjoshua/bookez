@@ -3,6 +3,17 @@
     "default": "silverlining-ec543",
     "prod": "silburo-prd"
   },
-  "targets": {},
+  "targets": {
+    "silburo-prd": {
+      "hosting": {
+        "prod": [
+          "silburo-prd"
+        ],
+        "uat": [
+          "silver-uat-app"
+        ]
+      }
+    }
+  },
   "etags": {}
 }
